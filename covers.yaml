@@ -1,0 +1,51 @@
+- platform: mqtt
+  name: "Stephanie Arbeitszimmer"
+  command_topic: "mediola/WA/C00A85"
+- platform: mqtt
+  name: "Stephan Arbeitszimmer"
+  command_topic: "mediola/WA/E00A85"
+- platform: mqtt
+  name: "Markise Links"
+  command_topic: "mediola/SM/F9648C"
+- platform: mqtt
+  name: "Markise Rechts"
+  command_topic: "mediola/SM/3C25D4"
+- platform: mqtt
+  name: "Bad"
+  command_topic: "mediola/SM/D7BDF0"
+- platform: mqtt
+  name: "Küche Aufgang"
+  command_topic: "mediola/WA/C00C2D"
+- platform: mqtt
+  name: "Küche Terrasse"
+  command_topic: "mediola/WA/E00C2D"
+- platform: mqtt
+  name: "Esszimmer Orchideen"
+  command_topic: "mediola/WA/A00C2D"
+- platform: mqtt
+  name: "Esszimmer Terrasse"
+  command_topic: "mediola/WA/800C2D"
+- platform: mqtt
+  name: "Wohnzimmer Terrasse"
+  command_topic: "mediola/WA/600C2D"
+- platform: mqtt
+  name: "Wohnzimmer Gartenhütte"
+  command_topic: "mediola/WA/400C2D"
+- platform: mqtt
+  name: "EG Alle"
+  command_topic: "mediola/WA/8084A8"
+- platform: mqtt
+  name: "EG Süden"
+  command_topic: "mediola/WA/A084A8"
+- platform: mqtt
+  name: "EG Osten"
+  command_topic: "mediola/WA/C084A8"
+- platform: mqtt
+  name: "WA Alle"
+  command_topic: "mediola/WA/E084A8"
+- platform: mqtt
+  name: "Schlafzimmer"
+  command_topic: "mediola/SM/E97C68"
+- platform: mqtt
+  name: "Küche Nord"
+  command_topic: "mediola/SM/8F1595"
