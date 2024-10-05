@@ -1,0 +1,22 @@
+- platform: mqtt
+  name: "Esszimmer"
+  command_topic: "mediola/IT/56979E80"
+- platform: mqtt
+  name: "Schrank"
+  command_topic: "mediola/IT/56979E81"
+- platform: mqtt
+  name: "Fernseher"
+  command_topic: "mediola/IT/56979E82"
+- platform: mqtt
+  name: "Weihnachtsbeleuchtung"
+  command_topic: "mediola/IT/56C82180"
+- platform: mqtt
+  name: "Terrasse LED"
+  command_topic: "mediola/Send2"
+  payload_on: "190800810005001903009C003D002D00A4002D064000000100010001010000010000000100010100000101010102"
+  payload_off: "190800810005001903009C003D002D00A4002D064000000100010001010000010000000100010100000101010102"
+- platform: mqtt
+  name: "Terrasse LED Helligkeit"
+  command_topic: "mediola/Send2"
+  payload_on: "190800810005001903009C003F002B00A5002B063A00000100010001010000010000000100010101010101000002"
+  payload_off: "19080081000500190300960040002900A60029064000000100010001010000010000000100010101010000010102"
