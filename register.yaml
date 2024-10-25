@@ -1,0 +1,176 @@
+device_type:
+    name: 'Geräte Typ'
+    address: 30053
+    type: 'U32'
+    format: 'ENUM'
+status:
+    name: 'Status des Geräts'
+    address: 30201
+    type: 'U32'
+    format: 'ENUM'
+    enum:
+        35: 'Fehler'
+        303: 'Aus'
+        307: 'OK'
+        455: 'Warnung'
+action:
+    name: 'Empfohlene Aktion'
+    address: 30211
+    type: 'U32'
+    format: 'ENUM'
+    enum:
+        336: 'Hersteller kontaktieren'
+        337: 'Installateur kontaktieren'
+        338: 'Ungültig'
+        887: 'Keine empfohlene Aktion'
+derating:
+    name: 'Temperatur Derating'
+    address: 30219
+    type: 'U32'
+    format: 'ENUM'
+    enum:
+        302: 'Kein Derating'
+        557: 'Temperatur Derating'
+        884: 'Nicht aktiv'
+        1704: 'WMAX Derating'
+        1705: 'Frequenz Derating'
+        1706: 'Derating aufgrund PV-Strombegrenzung'
+total_ac_energy:
+    name: 'Gesamtertrag AC'
+    address: 30513
+    type: 'U64'
+    format: 'FIX0'
+    unit: 'Wh'
+day_energy:
+    name: 'Tagesertrag'
+    address: 30517
+    type: 'U64'
+    format: 'FIX0'
+    unit: 'Wh'
+dc1_current:
+    name: 'DC-Strom Eingang 1'
+    address: 30769
+    type: 'S32'
+    format: 'FIX3'
+    unit: 'A'
+dc1_voltage:
+    name: 'DC-Spannung Eingang 1'
+    address: 30771
+    type: 'S32'
+    format: 'FIX2'
+    unit: 'V'
+dc1_power:
+    name: 'DC-Leistung Eingang 1'
+    address: 30773
+    type: 'S32'
+    format: 'FIX0'
+    unit: 'W'
+dc2_current:
+    name: 'DC-Strom Eingang 2'
+    address: 30957
+    type: 'S32'
+    format: 'FIX3'
+    unit: 'A'
+dc2_voltage:
+    name: 'DC-Spannung Eingang 2'
+    address: 30959
+    type: 'S32'
+    format: 'FIX2'
+    unit: 'V'
+dc2_power:
+    name: 'DC-Leistung Eingang 2'
+    address: 30961
+    type: 'S32'
+    format: 'FIX0'
+    unit: 'W'
+ac_real_power:
+    name: 'Wirkleistung AC'
+    address: 30775
+    type: 'S32'
+    format: 'FIX0'
+    unit: 'W'
+l1_active_power:
+    name: 'Wirkleistung L1'
+    address: 30777
+    type: 'S32'
+    format: 'FIX0'
+l2_active_power:
+    name: 'Wirkleistung L2'
+    address: 30779
+    type: 'S32'
+    format: 'FIX0'
+l3_active_power:
+    name: 'Wirkleistung L3'
+    address: 30781
+    type: 'S32'
+    format: 'FIX0'
+    unit: 'W'
+l1_voltage:
+    name: 'Netzspannung L1 -> N'
+    address: 30783
+    type: 'U32'
+    format: 'FIX2'
+    unit: 'V'
+l2_voltage:
+    name: 'Netzspannung L2 -> N'
+    address: 30785
+    type: 'U32'
+    format: 'FIX2'
+    unit: 'V'
+l3_voltage:
+    name: 'Netzspannung L3 -> N'
+    address: 30787
+    type: 'U32'
+    format: 'FIX2'
+    unit: 'V'
+ac_frequency:
+    name: 'Netzfrequenz'
+    address: 30803
+    type: 'U32'
+    format: 'FIX2'
+    unit: 'Hz'
+internal_temperature:
+    name: 'Interne Temperatur'
+    address: 30953
+    type: 'S32'
+    format: 'FIX1'
+    unit: '°C'
+pv_energy_today:
+    name: 'Gesamtertrag PV heute'
+    address: 31091
+    type: 'U32'
+    format: 'FIX0'
+    unit: 'Wh'
+pv_energy_yesterday:
+    name: 'Gesamtertrag PV gestern'
+    address: 31093
+    type: 'U32'
+    format: 'FIX0'
+    unit: 'Wh'
+pv_energy_month:
+    name: 'Gesamtertrag PV Monat'
+    address: 31095
+    type: 'U32'
+    format: 'FIX0'
+    unit: 'Wh'
+pv_energy_last_month:
+    name: 'Gesamtertrag PV letzter Monat'
+    address: 31097
+    type: 'U32'
+    format: 'FIX0'
+    unit: 'Wh'
+operation_status:
+    name: 'Betriebsstatus'
+    address: 40029
+    type: 'U32'
+    format: 'ENUM'
+    enum:
+        295: 'MPP'
+        381: 'Stop'
+        1392: 'Fehler'
+        1393: 'Warte auf DC Startbedingung'
+        1467: 'Starten'
+        1469: 'Herunterfahren'
+        1480: 'Warten auf EVU'
+        2119: 'Abregelung'
+
